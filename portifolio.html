@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Vinicius</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 50px 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 24px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #007BFF;
+        }
+        .profile {
+            margin-top: 50px;
+            text-align: center;
+        }
+        .profile img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .profile img:hover {
+            transform: scale(1.05);
+        }
+        .profile h2 {
+            margin-top: 20px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .profile p {
+            margin: 10px 0;
+            font-size: 16px;
+            color: #666;
+        }
+        .buttons {
+            margin-top: 30px;
+        }
+        .buttons a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+        .buttons .curriculo {
+            background: #FFCC00;
+            color: #333;
+        }
+        .buttons .projetos {
+            background: #FF3B30;
+            color: white;
+        }
+        .buttons .contato {
+            background: #34C759;
+            color: white;
+        }
+        .buttons a:hover {
+            filter: brightness(90%);
+        }
+        .footer {
+            margin-top: 50px;
+            padding: 20px;
+            background: white;
+            text-align: center;
+            font-size: 14px;
+            color: #777;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: #333;
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+        .social-icons a:hover {
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vinicius | Desenvolvedor</h1>
+        <nav>
+            <a href="https://reserva.ink/celestialstore" target="_blank">Loja</a>
+            <a href="https://github.com/viniciusdmorais" target="_blank">GitHub</a>
+            <a href="https://wa.me/16991613665" target="_blank">Contato</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="profile">
+            <img src="https://avatars.githubusercontent.com/u/95432848?v=4" alt="Vinicius">
+            <h2>Olá, eu sou Vinicius!</h2>
+            <p>Desenvolvedor apaixonado por tecnologia e inovação.</p>
+            <div class="buttons">
+                <a href="https://reserva.ink/celestialstore" target="_blank" class="curriculo">Loja</a>
+                <a href="https://github.com/viniciusdmorais" target="_blank" class="projetos">GitHub</a>
+                <a href="https://wa.me/16991613665" target="_blank" class="contato">Contato</a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2025 Vinicius. Todos os direitos reservados.</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/viniciusdemoraismendes" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/viniciusdmorais" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/vinymorais_/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
